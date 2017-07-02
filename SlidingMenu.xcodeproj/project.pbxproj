@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0782873F1F041E5300B43CDF /* PresentMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0782873E1F041E5300B43CDF /* PresentMenuAnimator.swift */; };
 		07C4A95E1F03FC780062E0F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C4A95D1F03FC780062E0F2 /* AppDelegate.swift */; };
 		07C4A9631F03FC780062E0F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C4A9611F03FC780062E0F2 /* Main.storyboard */; };
 		07C4A9651F03FC780062E0F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C4A9641F03FC780062E0F2 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0782873E1F041E5300B43CDF /* PresentMenuAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentMenuAnimator.swift; sourceTree = "<group>"; };
 		07C4A95A1F03FC780062E0F2 /* SlidingMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C4A95D1F03FC780062E0F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07C4A9621F03FC780062E0F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				07C4A9611F03FC780062E0F2 /* Main.storyboard */,
 				07C4A96F1F03FE870062E0F2 /* MainViewController.swift */,
 				07C4A9711F03FED80062E0F2 /* MenuViewController.swift */,
+				0782873E1F041E5300B43CDF /* PresentMenuAnimator.swift */,
 				07C4A9641F03FC780062E0F2 /* Assets.xcassets */,
 				07C4A9661F03FC780062E0F2 /* LaunchScreen.storyboard */,
 				07C4A9691F03FC780062E0F2 /* Info.plist */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C4A95E1F03FC780062E0F2 /* AppDelegate.swift in Sources */,
+				0782873F1F041E5300B43CDF /* PresentMenuAnimator.swift in Sources */,
 				07C4A9721F03FED80062E0F2 /* MenuViewController.swift in Sources */,
 				07C4A9701F03FE870062E0F2 /* MainViewController.swift in Sources */,
 			);
@@ -305,6 +309,7 @@
 				07C4A96E1F03FC780062E0F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
