@@ -85,12 +85,15 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.98039215690000003" green="0.54901960780000003" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="FNT-N6-Cb0" appends="YES" id="zAT-Qi-fDF"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n7X-b9-hSH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="FNT-N6-Cb0">
                     <connections>
-                        <action selector="handleGesture:" destination="ZRB-UL-2oa" id="VWP-o6-lai"/>
+                        <action selector="panGesture:" destination="ZRB-UL-2oa" id="qzP-gX-sAL"/>
                     </connections>
                 </panGestureRecognizer>
             </objects>

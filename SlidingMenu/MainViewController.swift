@@ -31,6 +31,6 @@ extension MainViewController: UIViewControllerTransitioningDelegate {
   }
   
   func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-    return nil
+    return DismissMenuAnimator()
   }
 }
